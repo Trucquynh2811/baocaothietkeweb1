@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhà Hàng Hương Quê - Giới Thiệu Món Ăn</title>
+    <style>
+        container {
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #da3300;
+            font-size: 36px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        h3 {text-align: center;
+            color: #3593ff;
+            font-size: 26px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .intro {
+            margin: 15px 0;
+            padding: 10px;
+            border: 2px solid #2f2c2c;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            background: transparent;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .dish {
+            border: 2px solid #2f2c2c;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: none;
+            background: transparent;
+            width: 300px;
+        }
+        .image {
+            width: 150%;
+            height: auto;
+            filter: blur(5px);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        p {
+            color: #ffffff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Nhà Hàng Hương Quê</h1>
+
+    <div class="intro">
+        <h3>Giới Thiệu</h3>
+        <p>
+        Chào mừng bạn đến với Nhà Hàng Hương Quê, nơi mang đến cho bạn những trải nghiệm ẩm thực tuyệt vời nhất. 
+        Với đội ngũ đầu bếp tài năng và nguyên liệu tươi ngon, chúng tôi tự hào phục vụ những món ăn 
+        đặc trưng từ các miền đất nước Việt Nam. Hãy đến và khám phá hương vị phong phú của các món ăn truyền thống!
+        </p>
+    </div>
+
+    <h2>Các món ăn ba miền</h2>
+
+    <div class="menu">
+
+        <div class="dish">
+           <h3>Miền Bắc</h3>
+           <p>Ẩm thực đất Bắc đa dạng, phong phú, trong đó có vô số những món ăn bình dị, dân dã với cách chế biến cầu kỳ đậm đà bản sắc dân tộc.</p>
+           <a href="mienbac.html" target="_blank">Tìm hiểu thêm</a>
+        </div>
+
+        <div class="dish">
+           <h3>Miền Trung</h3>
+           <p>Ẩm thực miền Trung là một tổng thể cân đối, hài hòa và tinh tế. Các món ăn miền Trung hầu hết đều mang hương vị đặc trưng là cay và mặn.</p>
+           <a href="mientrung.html" target="_blank">Tìm hiểu thêm</a>
+       </div>
+
+        <div class="dish">
+           <h3>Miền Nam</h3>
+           <p>Nếu như ẩm thực miền Bắc chú trọng sự tinh tế và cầu kỳ, miền Trung đậm đà hương vị thì văn hóa ẩm thực miền Nam mang nét chân chất, giản đơn rất riêng.</p>
+           <a href="miennam.html" target="_blank">Tìm hiểu thêm</a>
+        </div>
+
+    </div>
+    <img src="ảnh nền.jpeg"  class="image">
+</div>
+
+</body>
+</html>
+
